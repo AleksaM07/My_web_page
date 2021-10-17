@@ -1,0 +1,160 @@
+html, body{
+  height:100%;
+}
+body {
+  margin:0;
+}
+ul{
+  list-style:none;
+  gap:15px;
+}
+.sve {
+  display:flex;
+  flex-direction: column;
+  align-content: space-evenly;
+}
+.heder {
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height:70px;
+  background: #1F2937;
+}
+.heder1 {
+  display:flex;
+  justify-content: flex-start;
+  line-height:25px;
+  margin-left: 300px;
+  width:200px;
+  font-size:20px;
+  color: white;
+  font-weight: bold;
+}
+.heder2 {
+  display:flex;
+  justify-content: flex-end;
+  width: 100%;
+  color: white;
+  line-height:30px;
+  margin-right:300px;
+}
+.two {
+  width:100%;
+  height: 400px;
+  display:flex;
+  background: #1F2937;
+  flex-direction:row;
+  justify-content:space-between;
+}
+.two1 {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-left: 300px;
+  width: 300px;
+  padding: 0px;
+  color:white
+}
+.two2 {
+  display:flex;
+  margin-right: 500px;
+  justify-content:flex-end;
+  align-items: center;
+}
+.three {
+  display:flex;
+  flex-direction:column;
+  width:100%;
+}
+.three1 {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  gap: 100px;
+}
+.box {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #3882F6;
+  border-radius: 5px;
+  height:100px;
+  width:100px;
+}
+.three2 {
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  gap:25px;
+}
+.four {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  height: 400px;
+  background: #E5E7EB;
+}
+.four1 {
+  display:flex;
+  align-items: center;
+  justify-content:flex-start;
+  width:100%;
+  height: 400px;
+  margin-left:550px;
+  font-size:36px;
+  font-weight:light-italic;
+}
+.four2 {
+  display:flex;
+  align-items: center;
+  justify-content:flex-end;
+  width:100%;
+  height: 400px;
+  margin-right:600px;
+  font-size:20px;
+  font-weight:bold;
+}
+.five {
+  height: 300px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;  
+}
+.five1 {
+  width:50%;
+  background: #3882F6;
+  height:40%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction:row;
+  color:white;
+  align-items:center;
+}
+.five2 {
+  width:500px;
+  margin-left:50px;
+}
+.bttn2 {
+  text-decoration: none;
+  border: 1px; 
+  border-style: solid;
+  background: #3882F6; 
+  border-radius: 5px; 
+  color: white; 
+  width: 90px; 
+  height: 25px; 
+  border-color: white;
+}
+.footer {
+  text-align:center;
+  width: 100%;
+  bottom: 0px;
+  height: 70px;
+  position:relative;
+  background: #1F2937;
+  color:white;
+}
